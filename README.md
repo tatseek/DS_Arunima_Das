@@ -46,40 +46,62 @@ timestamp, account, pnl, sentiment_score, trade_count, volatility, size_usd, fee
 - run the codes directly , (after ammending the corrct paths to each files)
 
 ORDER OF RUNNING BOTH FILES
+
 --notebook_1.ipynb → Exploratory analysis, sentiment impact, behavioral patterns, baseline ML.
+
 -- notebook_2.ipynb → Advanced ML models, anomaly detection, portfolio optimization.
 
 ### 5. Project Structure
 
 DS_Arunima_Das/
 ├── notebook_1.ipynb          # EDA, Time Series, Behavioral Analytics
+
 |── notebook_2.ipynb          # Advanced ML, Risk Analysis, Portfolio Strategies
+
 ├── csv_file                  # Store all csv 
+
     └──fear_greed_index.csv   #Contains Sentiment Dataset
     └──historical_data.csv    #Contains historical trade data from hyperliquid
+
 ├── output/                   #Stores all visual outputs, graphs and charts and csv output too
+
 ├── DS_report.pdf/            # Final reports including explanation 
+
 └── README.md                 # Project documentation including setup, instructions and notes
 
 ### Key Outputs
 1. Exploratory Data Analysis
+   
    -Fear vs. Greed impact on profitability
+
    -Time-series sentiment vs. PnL dynamics
 
+
 2. Behavioral Analytics
+
    -Top traders in Fear/Greed
+
    -Overtrading patterns & performance divergence
 
+
 3. Machine Learning Models
+   
    -Predictive features: volatility, pnl_momentum, trade_count
+   
    -SHAP insights on drivers of performance
 
+
 4. Risk & Anomaly Detection
+ 
    -~9.7% trades flagged as anomalous
+
    -Overtrading strongly linked to anomalies
 
+
 5. Portfolio Strategy Backtest
+ 
    -Volatility-based strategies more consistent
+
    -Sentiment overlays useful in extreme Fear/Greed regimes
 
 
