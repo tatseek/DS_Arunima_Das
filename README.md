@@ -52,23 +52,18 @@ ORDER OF RUNNING BOTH FILES
 -- notebook_2.ipynb → Advanced ML models, anomaly detection, portfolio optimization.
 
 ### 5. Project Structure
-
+```
 DS_Arunima_Das/
-├── notebook_1.ipynb          # EDA, Time Series, Behavioral Analytics
+ ├── notebook_1.ipynb          # EDA, Time Series, Behavioral Analytics
+ |── notebook_2.ipynb          # Advanced ML, Risk Analysis, Portfolio Strategies
+ ├── csv_file                  # Store all csv 
+     └──fear_greed_index.csv   #Contains Sentiment Dataset
+     └──historical_data.csv    #Contains historical trade data from hyperliquid
+ ├── output/                   #Stores all visual outputs, graphs and charts and csv output too
+ ├── DS_report.pdf/            # Final reports including explanation 
+ └── README.md                 # Project documentation including setup, instructions and notes
 
-|── notebook_2.ipynb          # Advanced ML, Risk Analysis, Portfolio Strategies
-
-├── csv_file                  # Store all csv 
-
-    └──fear_greed_index.csv   #Contains Sentiment Dataset
-    └──historical_data.csv    #Contains historical trade data from hyperliquid
-
-├── output/                   #Stores all visual outputs, graphs and charts and csv output too
-
-├── DS_report.pdf/            # Final reports including explanation 
-
-└── README.md                 # Project documentation including setup, instructions and notes
-
+```
 ### Key Outputs
 1. Exploratory Data Analysis
    
